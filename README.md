@@ -1,0 +1,2 @@
+# Elastic-Stability-and-buckling-diagram-generator
+Interactive computational tool to visualize and analyze structural stability phenomena in thin structures , columns and beams. The system tries to generate diagrams that illustrate the relationship between load , deformation , stress state , and stability behavior . Enables user to explore elastic buckling , plastic buckling and post buckling resp
