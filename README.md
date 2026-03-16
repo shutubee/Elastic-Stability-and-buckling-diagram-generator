@@ -14,14 +14,6 @@ Diagram Types Generated :
 3. Column buckling mode shapes
 4. Stress-Strain buckling interaction diagrams
 5. Trefftz stability diagrams
-1. Load-Deflection diagrams: 
-   It illustrates the relationship between applied load and structural displacement.
-   Features -
-   Stable equilibrium branches , Unstable equilibrium branches , post buckling equilibrium paths , limit points , Bifurcation points
-2. Potential energy stability diagrams
-   It shows the total potential energy vs displacement. Used to identify :
-   Stable equilibrium[minimum energy]
-   Neutral Equilibrium
-   Unstable equilibrium[Maximum Energy]
+
 
    
