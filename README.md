@@ -7,3 +7,21 @@ The system generates diagram that help users understand :
 - Elastic and plastic buckling behavior
 - Post buckling deformation paths
 - Energy and potential stability landscapes
+These diagrams help explain how structural systems transition from stable equilibrium to instability when compressive loads reach critical values.
+Diagram Types Generated :
+1. Load-Deflection diagrams
+2. Potential energy stability diagrams
+3. Column buckling mode shapes
+4. Stress-Strain buckling interaction diagrams
+5. Trefftz stability diagrams
+1. Load-Deflection diagrams: 
+   It illustrates the relationship between applied load and structural displacement.
+   Features -
+   Stable equilibrium branches , Unstable equilibrium branches , post buckling equilibrium paths , limit points , Bifurcation points
+2. Potential energy stability diagrams
+   It shows the total potential energy vs displacement. Used to identify :
+   Stable equilibrium[minimum energy]
+   Neutral Equilibrium
+   Unstable equilibrium[Maximum Energy]
+
+   
