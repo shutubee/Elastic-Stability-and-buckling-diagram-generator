@@ -1,0 +1,21 @@
+from stability_core import AnalysisInput, analyze
+
+
+def test_basic_euler_case():
+    inp = AnalysisInput(
+        length_m=2.0,
+        k_factor=1.0,
+        shape="Rectangular",
+        dims_m={"width": 0.05, "depth": 0.05},
+        axis="Auto governing/min I",
+        E_Pa=200e9,
+        yield_Pa=250e6,
+        nu=0.3,
+        density_kg_m3=7850,
+        load_N=100e3,
+        eccentricity_m=0.0,
+    )
+    res = analyze(inp)
+    assert not res.errors
+    assert res.results["critical_load_kN"] > 0
+    assert res.derived["slenderness_lambda"] > 0
